@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — RedditSpeaks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0d0d0d; --surface: #161616; --border: #242424;
+      --accent: #FF4500; --text: #f0f0f0; --muted: #888;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; border-bottom: 1px solid var(--border); }
+    .nav-logo { font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800; color: var(--text); text-decoration: none; }
+    .nav-logo span { color: var(--accent); }
+    .container { max-width: 760px; margin: 0 auto; padding: 80px 24px; }
+    h1 { font-family: 'Syne', sans-serif; font-size: 2.5rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 8px; }
+    .date { color: var(--muted); font-size: 0.875rem; margin-bottom: 48px; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.2rem; font-weight: 700; margin: 40px 0 12px; }
+    p { color: var(--muted); margin-bottom: 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="nav-logo" href="index.html">Reddit<span>Speaks</span></a>
+  </nav>
+
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: June 9, 2026</p>
+
+    <h2>1. Overview</h2>
+    <p>RedditSpeaks is a personal automated content creation tool. This privacy policy explains how RedditSpeaks handles data in the context of its TikTok API integration.</p>
+
+    <h2>2. Data We Do Not Collect</h2>
+    <p>RedditSpeaks does not collect, store, process, or share any personal data from TikTok users or any other individuals. There are no user accounts, no registration forms, no cookies, and no analytics tracking on this website or within the tool.</p>
+
+    <h2>3. TikTok API Usage</h2>
+    <p>RedditSpeaks uses TikTok's Content Posting API solely to upload original video content to the RedditSpeaks TikTok account. The following scopes are used:</p>
+    <p><strong style="color: var(--text)">video.publish</strong> — Used to directly post videos to the RedditSpeaks TikTok profile. This scope is not used to access any other user's data or account.</p>
+    <p><strong style="color: var(--text)">user.info.basic</strong> — Used only to verify the identity of the authorized account during the OAuth flow. No profile data is stored.</p>
+
+    <h2>4. OAuth Tokens</h2>
+    <p>Access tokens obtained through TikTok's OAuth 2.0 flow are stored locally on the operator's personal device. They are used exclusively to authenticate API requests for video uploads. Tokens are never shared with third parties.</p>
+
+    <h2>5. Content Sources</h2>
+    <p>Video content is generated from publicly available Reddit posts sourced via Reddit's public RSS feeds. No private Reddit data is accessed. Story authors are credited where possible.</p>
+
+    <h2>6. Third Party Services</h2>
+    <p>RedditSpeaks interacts with the following third party services: Reddit (public RSS feeds), TikTok (Content Posting API), and YouTube (Data API v3). Each service's own privacy policy governs their respective data handling.</p>
+
+    <h2>7. Contact</h2>
+    <p>For any privacy related questions, contact us at <a href="mailto:clipzilla69420@gmail.com">clipzilla69420@gmail.com</a>.</p>
+  </div>
+
+  <footer>
+    <p>© 2026 RedditSpeaks · <a href="index.html">Home</a> · <a href="tos.html">Terms of Service</a></p>
+  </footer>
+</body>
+</html>
